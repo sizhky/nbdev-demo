@@ -34,7 +34,7 @@ $ make docs_serve
 `index.ipynb` should be the notebook that introduces users to your library. 
 You just need to add the important code snippets and the docs will be automatically built.
 
-```python
+```
 c = Circle(10)
 print(f'Area:\t\t{c.area}\nPerimeter:\t{c.perimeter}')
 ```

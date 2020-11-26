@@ -6,8 +6,8 @@ index = {"Circle": "00_example.ipynb"}
 
 modules = ["core.py"]
 
-doc_url = "https://pages.github.optum.com./demo-nbdev/demo/"
+doc_url = "https://github.optum.com/pages/yreddy31/demo-nbdev//"
 
-git_url = "https://github.optum.com/demo-nbdev/demo/tree/master/"
+git_url = "https://github.optum.com/yreddy31/demo-nbdev/tree/master/"
 
 def custom_doc_links(name): return None

@@ -5,8 +5,12 @@ __all__ = ['Circle']
 # Cell
 import math
 class Circle:
-    def __init__(self, r): self.r = r
+    def __init__(self, r:float): self.r = r
     @property
-    def perimeter(self):   return 2 * math.pi * self.r
+    def perimeter(self):
+        """return the perimeter of the circle"""
+        return 2 * math.pi * self.r
     @property
-    def area(self):        return math.pi * (self.r)**2
+    def area(self):
+        """return the area of the circle:"""
+        return math.pi * (self.r)**2
